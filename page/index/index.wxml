@@ -1,0 +1,4 @@
+<!--page/index/index.wxml-->
+
+<view>{{counter}}</view>
+<button bindtap="fun">+1</button>

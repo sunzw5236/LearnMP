@@ -1,0 +1,4 @@
+/* page/index/index.wxss */
+.title{
+  color: red;
+}

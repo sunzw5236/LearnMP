@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/signin/signin",
+    "page/my/my"
+
+  ],
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#e43937",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "hello world"
+  },
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "list": [{
+      "pagePath": "page/index/index",
+      "text": "主页",
+      "iconPath": "assets/tabBar/index.png",
+      "selectedIconPath": "assets/tabBar/index_active.png"
+    },{
+      "pagePath": "page/signin/signin",
+      "text": "签到",
+      "iconPath": "assets/tabBar/signin.png",
+      "selectedIconPath": "assets/tabBar/signin_active.png"
+    },{
+      "pagePath": "page/my/my",
+      "text": "我的",
+      "iconPath": "assets/tabBar/my.png",
+      "selectedIconPath": "assets/tabBar/my_active.png"
+    }]
+  }
+}
